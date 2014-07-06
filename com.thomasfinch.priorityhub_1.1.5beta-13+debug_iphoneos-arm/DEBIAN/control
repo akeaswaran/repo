@@ -7,5 +7,5 @@ Description: Organize lockscreen notifications
 Maintainer: Thomas Finch
 Author: Thomas Finch
 Section: Tweaks
-Version: 1.1.5beta-12
-Installed-Size: 268
+Version: 1.1.5beta-13+debug
+Installed-Size: 344
