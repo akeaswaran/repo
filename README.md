@@ -1,4 +1,0 @@
-repo
-====
-
-Personal Cydia repo
