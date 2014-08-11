@@ -1,8 +1,8 @@
-Origin: akeaswaran's beta repo
-Label: akeaswaran's beta repo
+Origin: /u/SHIVADOC's beta repo
+Label: /u/SHIVADOC's beta repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Private Cydia tweak repository for @akeaswaran.
+Description: Private Cydia tweak repository for /u/SHIVADOC.

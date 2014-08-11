@@ -17,6 +17,22 @@ items = (
     label = "Show Numbers";
   },
   {
+  cell = PSSwitchCell;
+  default = 1;
+  defaults = "com.thomasfinch.priorityhub";
+  key = colorizeSelected;
+  PostNotification = com.thomasfinch.priorityhub-prefschanged;
+  label = "Colorize Selected Background";
+  },
+  {
+  cell = PSSwitchCell;
+  default = 0;
+  defaults = "com.thomasfinch.priorityhub";
+  key = privacyModeEnabled;
+  PostNotification = com.thomasfinch.priorityhub-prefschanged;
+  label = "Privacy Mode";
+  },
+  {
     cell = PSSwitchCell;
     default = 0;
     defaults = "com.thomasfinch.priorityhub";
@@ -26,14 +42,11 @@ items = (
   },
   {
     cell = PSSwitchCell;
-    default = 0;
+    default = 1;
     defaults = "com.thomasfinch.priorityhub";
-    key = enableBlurs;
+    key = collapseOnLock;
     PostNotification = com.thomasfinch.priorityhub-prefschanged;
-    label = "Blur LS for notifications only";
-  },
-  {
-    cell = PSGroupCell;
+    label = "Collapse When Device is Locked";
   },
   {
     cell = PSLinkListCell;
