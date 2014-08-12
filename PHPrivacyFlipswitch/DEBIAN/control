@@ -1,0 +1,10 @@
+Package: com.akeaswaran.flipswitch
+Name: PHPrivacy Flipswitch
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Description: Toggles privacy mode for Priority Hub
+Maintainer: SHIVADOC
+Author: SHIVADOC
+Section: Addons (Flipswitch)
+Version: 0.0.1-1
+Installed-Size: 88
