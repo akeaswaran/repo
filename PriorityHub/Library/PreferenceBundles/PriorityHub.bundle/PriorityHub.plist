@@ -46,7 +46,7 @@ items = (
     defaults = "com.thomasfinch.priorityhub";
     key = collapseOnLock;
     PostNotification = com.thomasfinch.priorityhub-prefschanged;
-    label = "Collapse When Device is Locked";
+    label = "Collapse On Lock";
   },
   {
     cell = PSLinkListCell;
@@ -64,16 +64,6 @@ items = (
       "Top",
       "Bottom"
     );
-  },
-  {
-    cell = PSGroupCell;
-    footerText = "If you like this tweak, please donate! It took a lot of work to make.";
-  },
-  {
-    cell = PSButtonCell;
-    action = DonateButtonTapped;
-    icon = "Paypal.png";
-    label = "Donate";
   },
   {
     cell = PSGroupCell;
