@@ -7,7 +7,6 @@ title = "Priority Hub";
 items = (
   {
     cell = PSGroupCell;
-    footerText = "Settings";
   },
   {
     cell = PSSwitchCell;
@@ -16,14 +15,6 @@ items = (
     key = showNumbers;
     PostNotification = com.thomasfinch.priorityhub-prefschanged;
     label = "Show Numbers";
-  },
-  {
-    cell = PSSwitchCell;
-    default = 0;
-    defaults = "com.thomasfinch.priorityhub";
-    key = tappingEnabled;
-    PostNotification = com.thomasfinch.priorityhub-prefschanged;
-    label = "Tap to Open/Reply";
   },
   {
   cell = PSSwitchCell;
@@ -55,7 +46,7 @@ items = (
     defaults = "com.thomasfinch.priorityhub";
     key = collapseOnLock;
     PostNotification = com.thomasfinch.priorityhub-prefschanged;
-    label = "Collapse On Lock";
+    label = "Collapse When Device is Locked";
   },
   {
     cell = PSLinkListCell;
@@ -73,6 +64,16 @@ items = (
       "Top",
       "Bottom"
     );
+  },
+  {
+    cell = PSGroupCell;
+    footerText = "If you like this tweak, please donate! It took a lot of work to make.";
+  },
+  {
+    cell = PSButtonCell;
+    action = DonateButtonTapped;
+    icon = "Paypal.png";
+    label = "Donate";
   },
   {
     cell = PSGroupCell;
