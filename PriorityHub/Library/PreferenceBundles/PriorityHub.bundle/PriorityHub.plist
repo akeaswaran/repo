@@ -9,6 +9,14 @@ items = (
     cell = PSGroupCell;
   },
   {
+  cell = PSSwitchCell;
+  default = 1;
+  defaults = "com.thomasfinch.priorityhub";
+  key = allNotifsTabEnabled;
+  PostNotification = com.thomasfinch.priorityhub-prefschanged;
+  label = "All Notifications Tab";
+  },
+  {
     cell = PSSwitchCell;
     default = 1;
     defaults = "com.thomasfinch.priorityhub";
