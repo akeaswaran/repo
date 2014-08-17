@@ -65,14 +65,6 @@ items = (
     label = "Collapse On Lock";
   },
   {
-  cell = PSSwitchCell;
-  default = 1;
-  defaults = "com.thomasfinch.priorityhub";
-  key = enableBlurs;
-  PostNotification = com.thomasfinch.priorityhub-prefschanged;
-  label = "Improve Readability";
-  },
-  {
     cell = PSLinkListCell;
     detail = PSListItemsController;
     default = 0;
