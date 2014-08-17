@@ -70,7 +70,7 @@ items = (
   defaults = "com.thomasfinch.priorityhub";
   key = enableBlurs;
   PostNotification = com.thomasfinch.priorityhub-prefschanged;
-  label = "Conditional Blurring";
+  label = "Improve Readability";
   },
   {
     cell = PSLinkListCell;
