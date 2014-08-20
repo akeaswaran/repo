@@ -10,7 +10,7 @@ items = (
   },
   {
   cell = PSSwitchCell;
-  default = 1;
+  default = 0;
   defaults = "com.thomasfinch.priorityhub";
   key = allNotifsTabEnabled;
   PostNotification = com.thomasfinch.priorityhub-prefschanged;
