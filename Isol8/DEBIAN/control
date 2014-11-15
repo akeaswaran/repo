@@ -1,0 +1,10 @@
+Package: com.akeaswaran.isolate
+Name: Isol8
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Architecture: iphoneos-arm
+Description: How iOS 8's group message DND mode was supposed to be implemented.
+Maintainer: Akshay Easwaran
+Author: Akshay Easwaran
+Section: Tweaks
+Version: 0.0.2-9+debug
+Installed-Size: 404
