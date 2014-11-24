@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="stylesheet" type="text/css" href="css/ios7.css">
+      <link rel="stylesheet" type="text/css" href="css/ios7.min.css">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
     </head>
-    <body>
+    <body class="depiction">
+        <header>
+            <h1>Isol8</h1>
+        </header>
+        <main id="content" role="main">
+            <article>
+                <section class="content">
+                    <h2>Description</h2>
+                  <ul>
+                      <li>
+                          <p>Isol8 supercharges the native iOS 8 group message muting functionality, blocking <b>ALL</b> notifications from muted group messages, including banner, notification center, and lock screen alerts.</p>
+                      </li>
+                  </ul>
 
-      <h2>Description</h2>
-      <ul>
-          <li>
-              <p>Isol8 supercharges the native iOS 8 group message muting functionality, blocking <b>ALL</b> notifications from muted group messages, including banner, notification center, and lock screen alerts.</p>
-          </li>
-      </ul>
+                  <h2>Changelog for version 0.1</h2>
+                  <ul>
+                      <li><p>&bull; Added settings for muting NC, LS, and banner notifications (yes, I know this will mark the third time these toggles have been available. They just seem to cause a lot of issues.)</p></li>
+                      <li><p>&bull; Fixed issue where other switches wouldn't reload immediately after enabling/disabling the killswitch</p></li>
+                      <li><p>&bull; Cleaned up dead code from older versions</p></li>
+                      <li><p>&bull; Added a better-looking settings icon</p></li>
+                  </ul>
 
-      <h2>Changelog for version 0.1</h2>
-      <ul>
-          <li><p>&bull; Added settings for muting NC, LS, and banner notifications (yes, I know this will mark the third time these toggles have been available. They just seem to cause a lot of issues.)</p></li>
-          <li><p>&bull; Fixed issue where other switches wouldn't reload immediately after enabling/disabling the killswitch</p></li>
-          <li><p>&bull; Cleaned up dead code from older versions</p></li>
-          <li><p>&bull; Added a better-looking settings icon</p></li>
-      </ul>
+                  <h2>How to use Isol8</h2> 
+                  <ul>
+                      <li><p>&bull; Open Settings > Isol8 and enable it if it isn't already.</p></li>
+                      <li><p>&bull; Go into a group message in Messages.</p></li>
+                      <li><p>&bull; Tap "Details" in the top right.</p></li>
+                      <li><p>&bull; Scroll down until you see the "Do Not Disturb" option; turn this on.</p></li>
+                      <li><p>&bull; Isol8 will (by default) block all banners, notification center alerts, and lock screen alerts for this group.</p></li>
+                  </ul>
 
-      <h2>How to use Isol8</h2> 
-      <ul>
-          <li><p>&bull; Open Settings > Isol8 and enable it if it isn't already.</p></li>
-          <li><p>&bull; Go into a group message in Messages.</p></li>
-          <li><p>&bull; Tap "Details" in the top right.</p></li>
-          <li><p>&bull; Scroll down until you see the "Do Not Disturb" option; turn this on.</p></li>
-          <li><p>&bull; Isol8 will (by default) block all banners, notification center alerts, and lock screen alerts for this group.</p></li>
-      </ul>
+                  <h2>Compatibility</h2>
+                  <ul>
+                      <li><p>Isol8 works with iOS 8.0+ and all iDevice models.</p></li>
+                  </ul>
 
-      <h2>Compatibility</h2>
-      <ul>
-          <li><p>Isol8 works with iOS 8.0+ and all iDevice models.</p></li>
-      </ul>
+                  <ul>
+                      <li><a href="https://github.com/akeaswaran/Isolate">View on GitHub</a></li>
+                  </ul>
+                </section>
+            </article>
+            <footer>
+            <p role="footer">&copy;2014 Akshay Easwaran.</p>
+            </footer>
+      
 
-      <ul>
-          <li><a href="https://github.com/akeaswaran/Isolate">View on GitHub</a></li>
-      </ul>
-
-
-      <p>&copy;2014 Akshay Easwaran.</p>
+        </main>
     </body>
 </html>

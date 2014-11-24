@@ -1,13 +1,17 @@
-// Basic iOS 7 CSS // Apache 2 license // hbang.ws
-var split = document.title.split(" \u00b7 ")[0];
-$("header h1").html(split);
-$("a").attr("target", "_blank");
-$("img").parent().addClass("screens");
-(function (a, b){
+/* Basic iOS 7 CSS // Apache 2 license // hbang.ws */
+
+(function(document) {
 	"use strict";
-	navigator.userAgent.indexOf("Cydia") != -1 ?
-		(
-			a.title = b,
-			a.documentElement.classList.add("cydia", "depiction")
-		) : a.documentElement.classsList.remove("cydia", "depiction");
-})(document, split);
+
+	var classList = document.documentElement.classList;
+
+	if (navigator.userAgent.indexOf("Cydia") != -1) {
+		if (document.title.indexOf(" \u00b7 ") != -1) {
+			document.title = document.title.split(" \u00b7 ")[0];
+		}
+
+		classList.add("cydia");
+	} else {
+		classList.remove("cydia", "depiction");
+	}
+})(document);
