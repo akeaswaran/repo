@@ -3,10 +3,10 @@ Name: Isol8
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Description: How iOS 8's group message DND mode was supposed to be implemented.
-Depiction: http://akeaswaran.github.io/repo/depictions/isol8.html
+Depiction: http://akeaswaran.me/repo/depictions/isol8.html
 Maintainer: SHIVADOC <shivadoc15@gmail.com>
 Author: SHIVADOC <shivadoc15@gmail.com>
 Section: Tweaks
 Icon: file:///Library/PreferenceBundles/IsolatePrefs.bundle/IsolatePrefs@2x.png
-Version: 1.0-1+debug
+Version: 1.0-3+debug
 Installed-Size: 384
